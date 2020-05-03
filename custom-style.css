@@ -1,0 +1,7 @@
+.push-up {
+  display: flex;
+  position: absolute;
+  align-self: center;
+  min-width: 25%;
+  top: -12px;
+}
