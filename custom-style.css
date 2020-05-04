@@ -22,3 +22,15 @@
 p {
   font-size: 12pt;
 }
+@media screen and(max-width:992px) {
+  .t-shrink {
+    font-size: 12px;
+  }
+  .m-shrink {
+    margin: 1rem;
+  }
+}
+
+.m-shrink {
+  margin: 3rem;
+}
