@@ -8,15 +8,13 @@
     <title>Awakenings Coffee House</title>
   </head>
   <body>
-    <header class="container-fluid sticky-top">
-      <div class="row bg-primary">
-        <div
-          class="col-12 d-flex justify-content-around d-lg-block p-lg-0 m-lg-0"
-        >
+    <header class="container-fluid">
+      <div class="row fixed-top bg-light">
+        <div class="col-12 p-lg-0 m-lg-0">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">AwakeningsLogo</a>
+            <a class="navbar-brand" href="#">Awakenings (Logo)</a>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler bg-primary"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNav"
@@ -56,11 +54,71 @@
     </header>
 
     <main class="container-fluid">
-      <div class="row bg-primary">
-        <div class="col-12 d-flex justify-content-center col-md-4 offset-md-1">
-          <div class="card shadow p-2 m-4">
-            <h3 class="text-dark text-center card bg-light push-up">
-              Relax
+      <div class="row pt-3 bg-primary">
+        <div class="col-lg-3 col-12 offset-lg-1 mt-5 pt-4">
+          <form class="p-2 m-3 card shadow bg-light">
+            <h3>Have a question</h3>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input
+                required
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                required
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Phone number</label>
+              <input
+                placeholder="optional"
+                type="number"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We will call if you leave a phone number.</small
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Get in touch</label>
+              <textarea
+                required
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div
+          class="col-lg-8 col-12 d-flex justify-content-center order-1 order-lg-2 pt-4"
+        >
+          <div class="card shadow p-2 m-5">
+            <h3
+              class="text-light card bg-light p-2 text-center bg-dark push-up"
+            >
+              A heart for people, and purpousful coffees
             </h3>
             <img
               class="img-fluid"
@@ -69,30 +127,63 @@
             />
           </div>
         </div>
-        <div class="col-12 d-flex justify-content-center col-md-5 offset-md-1">
-          <div class="pt-5 mt-5">
-            <h1>head</h1>
-            <p>
+      </div>
+      <div class="row bg-dark text-light">
+        <div class="col-12">
+          <div class="">
+            <h1 class="p-2 text-primary">Our story</h1>
+            <br />
+            <h2>lorem</h2>
+            <p class="p-2">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
               atque expedita eveniet. Similique ad obcaecati ab quisquam esse
               delectus sint voluptatum sed, hic voluptates autem, commodi quasi
               repudiandae distinctio animi!
             </p>
+            <h2>ipsem</h2>
+            <p class="p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              magni modi. Sequi et saepe rerum harum, nobis qui aliquam dicta,
+              hic eveniet porro velit id, iusto reiciendis earum perferendis
+              aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis saepe ratione laborum reiciendis doloribus quam porro
+              eum! Nam saepe totam, dolorem cumque eum nisi ab reiciendis
+              repellat, temporibus perspiciatis voluptatibus?
+            </p>
+            <h2>Lorem ips</h2>
+            <p class="p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              vel saepe molestiae voluptate. Explicabo, quibusdam ipsam. Rem
+              laudantium aperiam magni? Nostrum eaque earum dignissimos dolorum
+              eius illo accusantium, amet ducimus!
+            </p>
+
+            <h2>Lorem ipsum dolor sit.</h2>
+
+            <p class="p-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+              velit doloremque corrupti molestias dolorem perferendis, cumque et
+              eaque ratione. Aperiam sunt corporis cupiditate. Exercitationem
+              praesentium consectetur ipsa laudantium in sunt?
+            </p>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row bg-secondary">
         <div class="col-12 col-lg-6">
-          <h2>giving back</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-            excepturi velit ex. Nesciunt, obcaecati esse nostrum quaerat
-            repellendus reprehenderit amet? Eum excepturi repellendus, non
-            quibusdam a corrupti cum. Amet, quia? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Officiis quisquam iusto exercitationem
-            sed ratione illum expedita nemo vel placeat sit modi facere
-            similique, et aspernatur rerum. Quis fugiat nesciunt cupiditate.
-          </p>
+          <div class="p-3">
+            <h2>giving back</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
+              excepturi velit ex. Nesciunt, obcaecati esse nostrum quaerat
+              repellendus reprehenderit amet? Eum excepturi repellendus, non
+              quibusdam a corrupti cum. Amet, quia? Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Officiis quisquam iusto
+              exercitationem sed ratione illum expedita nemo vel placeat sit
+              modi facere similique, et aspernatur rerum. Quis fugiat nesciunt
+              cupiditate.
+            </p>
+          </div>
         </div>
         <div class="col-12 col-lg-6 m-auto">
           <div class="card p-2 m-2">
@@ -107,22 +198,47 @@
           </div>
         </div>
       </div>
-      <div class="row"></div>
-    </main>
-    <footer class="container-fluid text-info bg-dark">
       <div class="row">
-        <div class="col-12 p-2 m-auto">
-          <h4 class="card p-2 push-up text-center">Contact info</h4>
+        <div class="col-12 col-lg-6">
+          <div class="p-3 m-3 mb-5 card bg-dark text-light shadow">
+            <h2 class="text-center">Were located on fivemile and overland</h2>
+            <div class="responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.7542124022234!2d-116.31766088422413!3d43.59083566447879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae56e957797331%3A0x78fb8ca812de896b!2s10650%20W%20Overland%20Rd%2C%20Boise%2C%20ID%2083709!5e0!3m2!1sen!2sus!4v1588563364921!5m2!1sen!2sus"
+                frameborder="0"
+                style="border: 0;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="card p-5 bg-dark text-light shadow text-center">
+              <h2>Hours of operation</h2>
+              <p>Monday - Friday 7 Am - 8 Pm</p>
+              <p>Saturday 7Am - 4Pm</p>
+              <p>Sunday 8Am - 2Pm</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row p-5">
-        <div class="col-4 text-center">
+    </main>
+    <footer class="container-fluid bg-primary">
+      <div class="row">
+        <div class="col-12 p-2 m-auto">
+          <h4 class="card p-2 bg-dark text-light push-up text-center">
+            Contact info
+          </h4>
+        </div>
+      </div>
+      <div class="row p-5 m-auto">
+        <div class="col-6 text-center">
           <p>email@gmail.com</p>
         </div>
-        <div class="col-4 text-center"><p>Phone:213-456-3456</p></div>
-        <div class="col-4 text-center">
-          <a class="text-info" href="#">Contact us</a>
-        </div>
+        <div class="col-6 text-center"><p>Phone:213-456-3456</p></div>
       </div>
     </footer>
     <script
